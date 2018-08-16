@@ -1,4 +1,5 @@
-from . import generate_date, generate_numbers
+from .date_generator import generate_date
+from .number_generator import generate_numbers
 
 
 def get_date():
